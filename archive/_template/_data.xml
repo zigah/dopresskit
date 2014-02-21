@@ -28,7 +28,7 @@
 		</price>
 		<price>
 			<currency>EUR</currency>
-			<value>€1.59</value>
+			<value>€1.79</value>
 		</price>
 		<price>
 			<currency>CAD</currency>
@@ -36,7 +36,7 @@
 		</price>				
 		<price>
 			<currency>GBP</currency>
-			<value>£1.29</value>
+			<value>£1.49</value>
 		</price>
 	</prices>
 
