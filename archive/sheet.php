@@ -728,7 +728,7 @@ if( $monetize >= 1 )
 	if( $monetize == 1 ) echo('<p>'.COMPANY_TITLE.' does currently not allow for the contents of '.GAME_TITLE.' to be published through video broadcasting services.</p>');
 	if( $monetize == 2 ) echo('<p>'.COMPANY_TITLE.' does allow the contents of this game to be published through video broadcasting services only with direct written permission from '.COMPANY_TITLE.'. Check at the bottom of this page for contact information.</p>');
 	if( $monetize == 3 ) echo('<p>'.COMPANY_TITLE.' allows for the contents of '.GAME_TITLE.' to be published through video broadcasting services for non-commercial purposes only. Monetization of any video created containing assets from '.GAME_TITLE.' is not allowed.</p>');
-	if( $monetize == 4 ) echo('<p>'.COMPANY_TITLE.' allows for the contents of '.GAME_TITLE.' to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from '.GAME_TITLE.' is legally & explicitly allowed by '.COMPANY_TITLE.'. This permission can be found in writing at <a href="'.'http://'. $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'].'">http://'. $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'].'</a>.</p>');
+	if( $monetize == 4 ) echo('<p>'.COMPANY_TITLE.' allows for the contents of '.GAME_TITLE.' to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from '.GAME_TITLE.' is legally & explicitly allowed by '.COMPANY_TITLE.'. This permission can be found in writing at <a href="'.'http://'. $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'].'#monetize">http://'. $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'].'#monetize</a>.</p>');
 	echo '<hr>';
 }
 
